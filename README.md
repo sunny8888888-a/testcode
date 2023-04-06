@@ -2,7 +2,7 @@
 
 # Q1
 
-··· python
+```python
 def calc_U(arr):
     if len(arr) % 2 == 0:
         # 如果 n 是偶数，则 U = arr [1]× arr [2]×（1÷ arr [3]）× arr [4]×...×（1÷ arr [n-1]）× arr [n]
@@ -50,11 +50,11 @@ arr =[5,4,3,2,1]
 new_arr = max_U(arr)
 U = calc_U(new_arr)
 print(new_arr, U)
-···
+```
 
 
 # Q2
-''' python
+```python
 def calc_matches(teamA, teamB):
     result = []
     for b in teamB:
@@ -73,10 +73,10 @@ teamA = [1, 2, 3]
 teamB = [2, 4]
 matches = calc_matches(teamA, teamB)
 print(matches)
-'''
+```
 
 # Q3
-''' python
+```python
 class Stack:
     def __init__(self):
         self.stack = []
@@ -115,4 +115,4 @@ stack.inc(2, 1)
 stack.pop()
 stack.pop()
 stack.pop()
-'''
+```
